@@ -2,8 +2,11 @@ class LoginsController < ApplicationController
 
   # GET: /logins
   get "/logins" do
-    erb :"/logins/index.html"
+    @login = Login.find(params[:id])
+    @role = Role.find(params[:id])
+    erb :index
   end
+
 
   # GET: /logins/new
   get "/logins/new" do

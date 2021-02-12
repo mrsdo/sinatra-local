@@ -13,11 +13,11 @@
 development:
   adapter: mysql2
   encoding: utf8
-  host: mysql.shegottablog.com
+  host: localhost
   database: listings_manager
   pool: 5
-  username: shegottablogcom
-  password: 9TTenz^f
+  username:
+  password:
  
 
 
@@ -29,19 +29,19 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  host: mysql.shegottablog.com
+  host: localhost
   database: listings_manager
   pool: 5
-  username: shegottablogcom
-  password: 9TTenz^f
+  username:
+  password:
 
 
 production:
   adapter: mysql2
   encoding: utf8
-  host: mysql.shegottablog.com
+  host: remote.database.com
   database: listings_manager
   pool: 5
-  username: shegottablogcom
-  password: 9TTenz^f
+  username:
+  password:
 
